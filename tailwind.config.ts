@@ -15,11 +15,21 @@ const config: Config = {
     extend: {
       colors: {
         trueGray: colors.neutral,
+        ink: "#191919",
+        paper: "#FAFAF7",
+        slate: {
+          DEFAULT: "#54544F",
+          soft: "#8B8B84",
+        },
+        hairline: "#DAD8D0",
+        panel: "#F1F0EA",
       },
     },
     fontFamily: {
       sans: ["Inter", ...defaultTheme.fontFamily.sans],
       stock: [defaultTheme.fontFamily.sans],
+      display: ["var(--font-space-grotesk)", ...defaultTheme.fontFamily.sans],
+      mono: ["var(--font-plex-mono)", ...defaultTheme.fontFamily.mono],
     },
   },
   variants: {

@@ -7,7 +7,7 @@
 @layer base {
   html,
   body {
-    @apply dark:bg-trueGray-900;
+    @apply bg-paper text-ink dark:bg-trueGray-900 dark:text-white;
   }
 }
 
