@@ -47,7 +47,7 @@ export const Navbar = () => {
           <ThemeChanger />
           <Link
             href="#contact"
-            className="font-mono text-xs border border-ink dark:border-white text-ink dark:text-white px-4 py-[9px] hover:bg-ink hover:text-paper dark:hover:bg-white dark:hover:text-ink transition-colors"
+            className="font-mono text-xs border border-ink dark:border-white text-ink dark:text-white px-4 py-[9px] rounded hover:bg-ink hover:text-paper dark:hover:bg-white dark:hover:text-ink transition-colors"
           >
             Get in touch
           </Link>

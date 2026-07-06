@@ -26,10 +26,10 @@ const config: Config = {
       },
     },
     fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      sans: ["Source Sans 3", ...defaultTheme.fontFamily.sans],
       stock: [defaultTheme.fontFamily.sans],
-      display: ["var(--font-space-grotesk)", ...defaultTheme.fontFamily.sans],
-      mono: ["var(--font-plex-mono)", ...defaultTheme.fontFamily.mono],
+      display: ["var(--font-playfair-display)", ...defaultTheme.fontFamily.sans],
+      mono: ["var(--font-courier-prime)", ...defaultTheme.fontFamily.mono],
     },
   },
   variants: {

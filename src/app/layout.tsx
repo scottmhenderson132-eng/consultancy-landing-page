@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk, IBM_Plex_Mono } from "next/font/google";
+import { Source_Sans_3, Playfair_Display, Courier_Prime } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
@@ -7,15 +7,15 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 
-const inter = Inter({ subsets: ["latin"] });
-const spaceGrotesk = Space_Grotesk({
+const sourceSans = Source_Sans_3({ subsets: ["latin"] });
+const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
-  variable: "--font-space-grotesk",
+  variable: "--font-playfair-display",
 });
-const plexMono = IBM_Plex_Mono({
+const courierPrime = Courier_Prime({
   subsets: ["latin"],
-  weight: ["400", "500"],
-  variable: "--font-plex-mono",
+  weight: ["400", "700"],
+  variable: "--font-courier-prime",
 });
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} ${spaceGrotesk.variable} ${plexMono.variable}`}>
+      <body className={`${sourceSans.className} ${playfairDisplay.variable} ${courierPrime.variable}`}>
         <ThemeProvider attribute="class">
           <Navbar />
           <div>{children}</div>

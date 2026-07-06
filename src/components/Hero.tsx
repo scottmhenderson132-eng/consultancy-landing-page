@@ -25,7 +25,7 @@ export const Hero = () => {
         <div className="mt-10 flex flex-wrap items-center gap-4">
           <a
             href="#contact"
-            className="font-mono text-[13px] bg-ink text-paper px-6 py-3.5 hover:opacity-80 transition-opacity"
+            className="font-mono text-[13px] bg-ink text-paper px-6 py-3.5 rounded hover:opacity-80 transition-opacity"
           >
             Start a conversation
           </a>

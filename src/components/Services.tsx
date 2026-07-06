@@ -27,7 +27,7 @@ export const Services = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-hairline dark:bg-trueGray-800 border border-hairline dark:border-trueGray-800">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-hairline dark:bg-trueGray-800 border border-hairline dark:border-trueGray-800 rounded overflow-hidden">
           <ServiceCard title="Bookkeeping & Compliance" items={bookkeeping} />
           <ServiceCard title="Fractional CFO Advisory" items={cfoAdvisory} />
         </div>

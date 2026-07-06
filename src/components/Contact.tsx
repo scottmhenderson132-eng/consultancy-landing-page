@@ -13,7 +13,7 @@ export const Contact = () => {
           </div>
         </div>
 
-        <div className="bg-panel dark:bg-trueGray-800 border border-hairline dark:border-trueGray-700 p-14 flex flex-wrap items-center justify-between gap-7">
+        <div className="bg-panel dark:bg-trueGray-800 border border-hairline dark:border-trueGray-700 p-14 flex flex-wrap items-center justify-between gap-7 rounded">
           <h2 className="font-display font-semibold text-ink dark:text-white text-2xl max-w-[400px]">
             Have a set of books that need a second opinion? Let&apos;s talk.
           </h2>
