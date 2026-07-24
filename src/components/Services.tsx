@@ -14,6 +14,13 @@ const cfoAdvisory = [
   "Owner compensation timing and cash flow decisions",
 ];
 
+const systemsImplementation = [
+  "Accounting software selection, setup, and cleanup",
+  "Chart of accounts and workflows built around how your business actually runs",
+  "Migrating off spreadsheets onto tools that scale with you",
+  "Invoicing, expenses, and payroll connected to the same set of books",
+];
+
 export const Services = () => {
   return (
     <Container>
@@ -27,8 +34,9 @@ export const Services = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-hairline dark:bg-trueGray-800 border border-hairline dark:border-trueGray-800 rounded overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-px bg-hairline dark:bg-trueGray-800 border border-hairline dark:border-trueGray-800 rounded overflow-hidden">
           <ServiceCard title="Bookkeeping & Compliance" items={bookkeeping} />
+          <ServiceCard title="Financial Systems & Software" items={systemsImplementation} />
           <ServiceCard title="Fractional CFO Advisory" items={cfoAdvisory} />
         </div>
       </section>
