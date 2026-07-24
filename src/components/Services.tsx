@@ -9,9 +9,9 @@ const bookkeeping = [
 
 const cfoAdvisory = [
   "Cash flow forecasting and scenario planning",
-  "Budget vs. actual reporting built around your business",
-  "Pricing, financing, and hiring-timing decisions",
-  "Owner compensation timing and cash flow decisions",
+  "Clear reporting built around your business",
+  "Guidance on pricing, financing, and when to hire",
+  "Owner compensation decisions grounded in what the business can actually support",
 ];
 
 const systemsImplementation = [
