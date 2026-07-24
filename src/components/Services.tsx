@@ -15,10 +15,9 @@ const cfoAdvisory = [
 ];
 
 const systemsImplementation = [
-  "Accounting software selection, setup, and cleanup",
   "Chart of accounts and workflows built around how your business actually runs",
-  "Migrating off spreadsheets onto tools that scale with you",
-  "Invoicing, expenses, and payroll connected to the same set of books",
+  "Tailored software implementations, from credit card processing to full accounting systems",
+  "Designed to minimize how much time you spend in the books",
 ];
 
 export const Services = () => {
