@@ -23,15 +23,15 @@ export const About = () => {
               <strong className="font-semibold text-ink dark:text-white">
                 Scott Henderson, CPA
               </strong>{" "}
-              founded this practice to work directly with a small number of
-              owner-managed businesses — enough to know the numbers well, not
-              so many that anything slips.
+              founded this practice to work directly with a select number of
+              small and medium-sized businesses — enough to know the numbers
+              well, not so many that anything slips.
             </p>
             <p>
               Before starting the practice, Scott led accounting for a
               growth-stage company, working across financial reporting, tax,
-              and the operational detail that owner-managed businesses live in
-              day to day.
+              and the operational detail that small and medium-sized
+              businesses live in day to day.
             </p>
             <p>Based in Victoria, BC, working remotely with clients across Canada.</p>
           </div>

@@ -5,17 +5,17 @@ export const Hero = () => {
     <Container>
       <div className="pt-16 pb-16 md:pt-20 md:pb-20">
         <div className="font-mono text-[11px] tracking-[0.14em] uppercase text-slate dark:text-slate-soft mb-6">
-          CPA · Advisory for owner-managed businesses
+          CPA · Advisory for small and medium-sized businesses
         </div>
 
         <h1 className="font-display font-semibold text-ink dark:text-white leading-[1.08] tracking-[-0.01em] text-[clamp(32px,5vw,54px)] max-w-[760px]">
-          Books that balance. Decisions that don&apos;t wait for year-end.
+          Run the business. I&apos;ll run the numbers.
         </h1>
 
         <p className="mt-7 text-lg leading-[1.65] text-slate dark:text-slate-soft max-w-[560px]">
-          Bookkeeping and fractional CFO support for owner-managed businesses
-          — accurate every month, and built to inform decisions when you
-          actually need to make them, not just at tax time.
+          You didn&apos;t start your business to worry about managing its
+          finances. With comprehensive bookkeeping, financial systems, and
+          fractional CFO support, I take finances off your to-do list.
         </p>
 
         <div className="relative mt-9 h-px bg-hairline max-w-[560px]">
