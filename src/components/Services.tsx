@@ -3,8 +3,8 @@ import { Container } from "@/components/Container";
 const bookkeeping = [
   "Monthly bookkeeping and reconciliations",
   "Financial statements built to be read, not just filed",
-  "GST/HST filing and compliance",
-  "Clean books, ready for your accountant, lender, or year-end",
+  "GST/HST and PST filing and compliance",
+  "Books built to CPA standards — ready for your tax preparer or lender, any time of year",
 ];
 
 const cfoAdvisory = [
