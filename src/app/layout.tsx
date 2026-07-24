@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Source_Sans_3, Playfair_Display, Courier_Prime } from "next/font/google";
+import { Work_Sans, Noto_Sans, Courier_Prime } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
@@ -7,10 +7,10 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 
-const sourceSans = Source_Sans_3({ subsets: ["latin"] });
-const playfairDisplay = Playfair_Display({
+const workSans = Work_Sans({ subsets: ["latin"] });
+const notoSans = Noto_Sans({
   subsets: ["latin"],
-  variable: "--font-playfair-display",
+  variable: "--font-noto-sans",
 });
 const courierPrime = Courier_Prime({
   subsets: ["latin"],
@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${sourceSans.className} ${playfairDisplay.variable} ${courierPrime.variable}`}>
+      <body className={`${workSans.className} ${notoSans.variable} ${courierPrime.variable}`}>
         <ThemeProvider attribute="class">
           <Navbar />
           <div>{children}</div>

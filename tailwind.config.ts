@@ -26,9 +26,9 @@ const config: Config = {
       },
     },
     fontFamily: {
-      sans: ["Source Sans 3", ...defaultTheme.fontFamily.sans],
+      sans: ["Work Sans", ...defaultTheme.fontFamily.sans],
       stock: [defaultTheme.fontFamily.sans],
-      display: ["var(--font-playfair-display)", ...defaultTheme.fontFamily.sans],
+      display: ["var(--font-noto-sans)", ...defaultTheme.fontFamily.sans],
       mono: ["var(--font-courier-prime)", ...defaultTheme.fontFamily.mono],
     },
   },
