@@ -11,7 +11,7 @@ const cfoAdvisory = [
   "Cash flow forecasting and scenario planning",
   "Budget vs. actual reporting built around your business",
   "Pricing, financing, and hiring-timing decisions",
-  "Owner compensation and structure planning",
+  "Owner compensation timing and cash flow decisions",
 ];
 
 export const Services = () => {
