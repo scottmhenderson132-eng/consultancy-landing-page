@@ -22,7 +22,7 @@ export const Contact = () => {
               href="https://forms.gle/t7rwjJYN9nKuQdbq6"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-mono text-[13px] bg-ink text-paper px-6 py-3.5 rounded hover:opacity-80 transition-opacity"
+              className="font-mono text-[13px] bg-ink text-paper dark:bg-white dark:text-ink px-6 py-3.5 rounded hover:opacity-80 transition-opacity"
             >
               Send a message
             </a>
