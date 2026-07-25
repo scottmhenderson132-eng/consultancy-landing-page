@@ -17,12 +17,24 @@ export const Contact = () => {
           <h2 className="font-display font-semibold text-ink dark:text-white text-2xl max-w-[400px]">
             Reach out. Happy to talk through whatever&apos;s on your mind, no commitment.
           </h2>
-          <a
-            href="mailto:scott@sh-advisory.ca"
-            className="font-mono text-[15px] text-ink dark:text-white border-b border-ink dark:border-white pb-[3px]"
-          >
-            scott@sh-advisory.ca
-          </a>
+          <div className="flex flex-wrap items-center gap-4">
+            <a
+              href="https://forms.gle/t7rwjJYN9nKuQdbq6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-[13px] bg-ink text-paper px-6 py-3.5 rounded hover:opacity-80 transition-opacity"
+            >
+              Send a message
+            </a>
+            <a
+              href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0lTjtqvBpSZyx6UMeIb6H1HedAQY6F8OaYQ6hMrGsxkXsIN7pY6lZAMNfWgy1eXwERuCOBbmwu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-[13px] text-slate dark:text-slate-soft border-b border-hairline pb-1 hover:text-ink hover:border-ink dark:hover:text-white transition-colors"
+            >
+              Or skip to booking a call
+            </a>
+          </div>
         </div>
       </section>
     </Container>
