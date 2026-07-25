@@ -45,7 +45,7 @@ export const Services = () => {
 
 function ServiceCard({ title, items }: Readonly<{ title: string; items: string[] }>) {
   return (
-    <div className="bg-paper dark:bg-trueGray-900 p-10">
+    <div className="bg-paper dark:bg-trueGray-900 p-6 md:p-10">
       <h3 className="font-display font-semibold text-ink dark:text-white text-[19px] mb-[18px]">
         {title}
       </h3>
