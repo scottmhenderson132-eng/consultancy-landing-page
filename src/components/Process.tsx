@@ -9,7 +9,7 @@ const steps = [
   {
     num: "02",
     title: "Scoped engagement",
-    desc: "A written agreement covering exactly what's included, delivered on a predictable monthly retainer — no surprise invoices.",
+    desc: "A written agreement covering exactly what's included, delivered on a predictable monthly retainer, with no surprise invoices.",
   },
   {
     num: "03",
