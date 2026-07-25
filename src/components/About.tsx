@@ -20,20 +20,33 @@ export const About = () => {
 
           <div className="space-y-4 text-base leading-[1.75] text-slate dark:text-slate-soft max-w-[560px]">
             <p>
-              <strong className="font-semibold text-ink dark:text-white">
-                Scott Henderson, CPA
-              </strong>{" "}
-              founded this practice to work directly with a select number of
-              small and medium-sized businesses — enough to know the numbers
-              well, not so many that anything slips.
+              I&apos;ve always felt it was my mission to help people. The
+              hard part was bridging the gap between what people needed and
+              what I could offer.
             </p>
             <p>
-              Before starting the practice, Scott led accounting for a
-              growth-stage company, working across financial reporting, tax,
-              and the operational detail that small and medium-sized
-              businesses live in day to day.
+              I founded this practice to work directly with a select number
+              of small and medium-sized businesses (SMBs). Enough to know
+              the numbers well, not so many that anything slips.
+            </p>
+            <p>
+              I previously led accounting for a growth-stage company,
+              working across financial reporting, receivables, payables and
+              cash management. I was molded by the operational detail that
+              SMBs live in day to day.
+            </p>
+            <p>
+              I&apos;ve seen numerous business owners struggle to stay on
+              top of their finances. I&apos;ve seen what works and what
+              doesn&apos;t when a business is scaling quickly. With a
+              personal, tailored approach to each client, you can get back
+              the time you need to run and grow the business you&apos;ve
+              always wanted.
             </p>
             <p>Based in Victoria, BC, working remotely with clients across Canada.</p>
+            <p className="pt-2 font-display font-semibold text-ink dark:text-white">
+              Scott Henderson, CPA
+            </p>
           </div>
         </div>
       </section>
