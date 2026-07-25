@@ -94,7 +94,7 @@ export const Navbar = () => {
                 <DisclosureButton
                   as={Link}
                   href="#contact"
-                  className="block py-2 font-mono text-xs text-ink dark:text-white"
+                  className="block py-2 text-sm text-slate dark:text-slate-soft hover:text-ink dark:hover:text-white transition-colors"
                 >
                   Get in touch
                 </DisclosureButton>
