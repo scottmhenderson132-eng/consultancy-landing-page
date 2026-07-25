@@ -22,12 +22,12 @@ export const Navbar = () => {
           <Container className="!py-5 flex items-center justify-between">
             <Link
               href="/#top"
-              className="flex items-center gap-2.5 font-display font-semibold text-[16px] text-ink dark:text-white"
+              aria-label="Scott Henderson Advisory"
+              className="flex items-center font-display font-semibold text-[16px] text-ink dark:text-white"
             >
               <span className="w-[26px] h-[26px] rounded-full border-[1.5px] border-ink dark:border-white flex items-center justify-center text-[11px] font-semibold">
                 SH
               </span>
-              Scott Henderson Advisory
             </Link>
 
             <ul className="hidden md:flex items-center gap-8 list-none">
