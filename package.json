@@ -1,7 +1,7 @@
 {
-  "name": "nextly-template",
-  "version": "2.0.0",
-  "description": "Nextly Landing Page Template",
+  "name": "sh-advisory-website",
+  "version": "1.0.0",
+  "description": "Scott Henderson Advisory Services marketing website",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,15 +11,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/web3templates/nextly-template"
+    "url": "https://github.com/scottmhenderson132-eng/consultancy-landing-page"
   },
-  "keywords": [
-    "nextjs",
-    "tailwindcss",
-    "free"
-  ],
-  "author": "Surjith S M",
-  "license": "ISC",
   "dependencies": {
     "@headlessui/react": "^2.0.3",
     "@heroicons/react": "^2.1.3",
