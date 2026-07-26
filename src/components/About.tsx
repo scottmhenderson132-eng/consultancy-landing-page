@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container } from "@/components/Container";
 
 export const About = () => {
@@ -14,8 +15,14 @@ export const About = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-11 items-start">
-          <div className="w-[120px] h-[120px] rounded-full border-[1.5px] border-ink dark:border-white flex items-center justify-center font-display font-semibold text-ink dark:text-white text-[32px]">
-            SH
+          <div className="relative w-[120px] h-[120px] rounded-full overflow-hidden">
+            <Image
+              src="/img/scott-headshot.jpg"
+              alt="Scott Henderson"
+              fill
+              sizes="120px"
+              className="object-cover"
+            />
           </div>
 
           <div className="space-y-4 text-base leading-[1.75] text-slate dark:text-slate-soft max-w-[560px]">
