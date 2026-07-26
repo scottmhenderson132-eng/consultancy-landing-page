@@ -9,7 +9,7 @@ export const Hero = () => {
         </div>
 
         <h1 className="font-display font-semibold text-ink dark:text-white leading-[1.08] tracking-[-0.01em] text-[clamp(32px,5vw,54px)] max-w-[760px]">
-          Run the business. I&apos;ll run the numbers.
+          Get back to running your business.
         </h1>
 
         <p className="mt-7 text-lg leading-[1.65] text-slate dark:text-slate-soft max-w-[560px]">
