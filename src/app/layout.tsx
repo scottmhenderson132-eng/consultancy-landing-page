@@ -19,8 +19,22 @@ const courierPrime = Courier_Prime({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sh-advisory.ca"),
   title: "Scott Henderson Advisory Services: Bookkeeping & Fractional CFO for Small and Medium-Sized Businesses",
   description: "Bookkeeping and fractional CFO advisory for small and medium-sized businesses. Monthly books you can read, and reporting that supports decisions all year.",
+  openGraph: {
+    title: "Scott Henderson Advisory Services",
+    description: "CPA advisory for small and medium-sized businesses. Bookkeeping, financial systems, and fractional CFO support.",
+    url: "https://sh-advisory.ca/",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 627,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
