@@ -26,14 +26,23 @@ export const metadata: Metadata = {
     title: "Scott Henderson Advisory Services",
     description: "CPA advisory for small and medium-sized businesses. Bookkeeping, financial systems, and fractional CFO support.",
     url: "https://sh-advisory.ca/",
+    siteName: "Scott Henderson Advisory Services",
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "/img/og-image-v2.png",
         width: 1200,
-        height: 627,
+        height: 630,
+        alt: "Scott Henderson Advisory Services",
+        type: "image/png",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Scott Henderson Advisory Services",
+    description: "CPA advisory for small and medium-sized businesses. Bookkeeping, financial systems, and fractional CFO support.",
+    images: ["/img/og-image-v2.png"],
   },
 };
 
