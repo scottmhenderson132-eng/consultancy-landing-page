@@ -27,28 +27,21 @@ export const About = () => {
 
           <div className="space-y-4 text-base leading-[1.75] text-slate dark:text-slate-soft max-w-[560px]">
             <p>
-              I&apos;ve always felt it was my mission to help people. The
-              hard part was bridging the gap between what people needed and
-              what I could offer.
+              I founded this practice to work directly with a small number
+              of small and medium-sized businesses. Enough to know the
+              numbers well, not so many that anything slips.
             </p>
             <p>
-              I founded this practice to work directly with a select number
-              of small and medium-sized businesses (SMBs). Enough to know
-              the numbers well, not so many that anything slips.
+              Before this I led accounting for a growth-stage company,
+              covering financial reporting, receivables, payables and cash
+              management. That’s the operational detail SMBs live in every
+              day, and it’s where most of the pain is.
             </p>
             <p>
-              I previously led accounting for a growth-stage company,
-              working across financial reporting, receivables, payables and
-              cash management. I was molded by the operational detail that
-              SMBs live in day to day.
-            </p>
-            <p>
-              I&apos;ve seen numerous business owners struggle to stay on
-              top of their finances. I&apos;ve seen what works and what
-              doesn&apos;t when a business is scaling quickly. With a
-              personal, tailored approach to each client, you can get back
-              the time you need to run and grow the business you&apos;ve
-              always wanted.
+              Most owners I’ve worked with weren’t bad at their finances.
+              They were busy. The books slipped, the reporting went stale,
+              and decisions got made on instinct instead of numbers. That’s
+              the gap I close.
             </p>
             <p>Based in Victoria, BC, working remotely with clients across Canada.</p>
             <p className="pt-2 font-display font-semibold text-ink dark:text-white">

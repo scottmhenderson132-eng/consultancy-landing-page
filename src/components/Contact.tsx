@@ -15,7 +15,7 @@ export const Contact = () => {
 
         <div className="bg-panel dark:bg-trueGray-800 border border-hairline dark:border-trueGray-700 p-8 md:p-14 flex flex-wrap items-center justify-between gap-7 rounded">
           <h2 className="font-display font-semibold text-ink dark:text-white text-2xl max-w-[400px]">
-            Reach out. Happy to talk through whatever&apos;s on your mind, no commitment.
+            Reach out. Thirty minutes on where your books and reporting stand, no commitment.
           </h2>
           <div className="flex flex-wrap items-center gap-4">
             <a
@@ -32,7 +32,7 @@ export const Contact = () => {
               rel="noopener noreferrer"
               className="font-mono text-[13px] text-slate dark:text-slate-soft border-b border-hairline pb-1 hover:text-ink hover:border-ink dark:hover:text-white transition-colors"
             >
-              Or skip to booking a call
+              Book a call
             </a>
           </div>
         </div>

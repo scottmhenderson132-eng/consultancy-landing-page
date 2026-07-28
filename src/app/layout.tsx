@@ -20,7 +20,7 @@ const courierPrime = Courier_Prime({
 
 export const metadata: Metadata = {
   title: "Scott Henderson Advisory Services: Bookkeeping & Fractional CFO for Small and Medium-Sized Businesses",
-  description: "Bookkeeping and fractional CFO advisory for small and medium-sized businesses. Monthly books you can read, and decisions supported year-round, not just at tax time.",
+  description: "Bookkeeping and fractional CFO advisory for small and medium-sized businesses. Monthly books you can read, and reporting that supports decisions all year.",
 };
 
 export default function RootLayout({

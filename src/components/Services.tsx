@@ -2,20 +2,20 @@ import { Container } from "@/components/Container";
 
 const bookkeeping = [
   "Monthly bookkeeping and reconciliations",
-  "Financial statements built to be read, not just filed",
+  "Financial statements you’ll actually use to make decisions",
   "GST/HST and PST filing and compliance",
-  "Books built to CPA standards, ready for your tax preparer or lender, any time of year",
+  "Books kept to CPA standards, so whatever your lender or tax preparer asks for is already there",
 ];
 
 const cfoAdvisory = [
   "Cash flow forecasting and scenario planning",
-  "Clear reporting built around your business",
+  "Reporting shaped around the decisions you’re actually making",
   "Guidance on pricing, financing, and when to hire",
   "Owner compensation decisions grounded in what the business can actually support",
 ];
 
 const systemsImplementation = [
-  "Chart of accounts and workflows built around how your business actually runs",
+  "A chart of accounts and workflows that match how your business actually runs",
   "Tailored software implementations, from credit card processing to full accounting systems",
   "Designed to minimize how much time you spend in the books",
 ];

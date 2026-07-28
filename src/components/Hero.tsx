@@ -13,9 +13,9 @@ export const Hero = () => {
         </h1>
 
         <p className="mt-7 text-lg leading-[1.65] text-slate dark:text-slate-soft max-w-[560px]">
-          You didn&apos;t start your business to worry about managing its
-          finances. With comprehensive bookkeeping, financial systems, and
-          fractional CFO support, I take finances off your to-do list.
+          You didn’t start your business to worry about managing its
+          finances. I handle the monthly books, the systems behind them, and
+          the reporting you need to make decisions.
         </p>
 
         <div className="relative mt-9 h-px bg-hairline max-w-[560px]">
