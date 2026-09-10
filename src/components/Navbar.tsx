@@ -6,9 +6,9 @@ import ThemeChanger from "./DarkSwitch";
 import { Container } from "@/components/Container";
 
 const navLinks = [
-  { href: "#services", label: "Services" },
-  { href: "#process", label: "Process" },
-  { href: "#about", label: "About" },
+  { href: "/#services", label: "Services" },
+  { href: "/#process", label: "Process" },
+  { href: "/#about", label: "About" },
 ];
 
 export const Navbar = () => {
@@ -46,7 +46,7 @@ export const Navbar = () => {
             <div className="flex items-center gap-5">
               <ThemeChanger />
               <Link
-                href="#contact"
+                href="/#contact"
                 className="hidden sm:inline-block font-mono text-xs border border-ink dark:border-white text-ink dark:text-white px-4 py-[9px] rounded hover:bg-ink hover:text-paper dark:hover:bg-white dark:hover:text-ink transition-colors"
               >
                 Get in touch
@@ -93,7 +93,7 @@ export const Navbar = () => {
               <li>
                 <DisclosureButton
                   as={Link}
-                  href="#contact"
+                  href="/#contact"
                   className="block py-2 text-sm text-slate dark:text-slate-soft hover:text-ink dark:hover:text-white transition-colors"
                 >
                   Get in touch
