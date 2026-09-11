@@ -1,0 +1,14 @@
+# Netlify build configuration.
+#
+# Only build-time environment variables are set here. Build command, publish
+# directory and the Next.js runtime are still configured in the Netlify UI, and
+# values not set in this file keep coming from there.
+
+[build.environment]
+  # Target of the "Continue to Intuit" button on /apps/qbo/connect. Next.js
+  # inlines NEXT_PUBLIC_ values at build time, so the page renders the button
+  # disabled unless this is set when the site is built.
+  #
+  # Public URL, not a secret: it is visible in the page's HTML either way. The
+  # client secret lives only on the server at qbo.sh-advisory.ca.
+  NEXT_PUBLIC_QBO_AUTHORIZE_URL = "https://qbo.sh-advisory.ca/authorize"
