@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "How Scott Henderson Advisory Services handles information accessed through its private QuickBooks Online integration.",
 };
 
-const EFFECTIVE_DATE = "September 10, 2026";
+const EFFECTIVE_DATE = "September 11, 2026";
 
 type Block = string | string[];
 
@@ -45,7 +45,7 @@ const clauses: ReadonlyArray<{ heading: string; body: Block[] }> = [
   {
     heading: "4. Artificial intelligence processing",
     body: [
-      "SHA uses AI language models as a working tool in the course of providing services. Accounting data retrieved through the Integration may be sent to a third-party AI provider for the purpose of carrying out the engagement, under a commercial agreement that prohibits the provider from using the data to train its models. SHA reviews all AI output before it is relied upon or recorded. A professional judgment is never delegated to a model without review.",
+      "SHA uses AI language models as a working tool in the course of providing services. Accounting data retrieved through the Integration may be sent to a third-party AI provider for the purpose of carrying out the engagement, under terms and account settings that do not permit the provider to use the data to train its models. SHA reviews all AI output before it is relied upon or recorded. A professional judgment is never delegated to a model without review.",
     ],
   },
   {
