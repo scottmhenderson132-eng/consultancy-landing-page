@@ -24,14 +24,9 @@ export const Services = () => {
   return (
     <Container>
       <section id="services" className="py-20 border-t border-hairline dark:border-trueGray-800">
-        <div className="flex justify-between items-baseline gap-6 mb-12">
-          <h2 className="font-display font-semibold text-ink dark:text-white text-[26px]">
-            Services
-          </h2>
-          <div aria-hidden="true" className="text-[12px] tabular-nums text-slate-label dark:text-slate-soft whitespace-nowrap">
-            01
-          </div>
-        </div>
+        <h2 className="font-display font-semibold text-ink dark:text-white text-[26px] mb-12">
+          Services
+        </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-px bg-hairline dark:bg-trueGray-800 border border-hairline dark:border-trueGray-800 rounded overflow-hidden">
           <ServiceCard title="Bookkeeping & Compliance" items={bookkeeping} />

@@ -22,14 +22,9 @@ export const Process = () => {
   return (
     <Container>
       <section id="process" className="py-20 border-t border-hairline dark:border-trueGray-800">
-        <div className="flex justify-between items-baseline gap-6 mb-12">
-          <h2 className="font-display font-semibold text-ink dark:text-white text-[26px]">
-            How it works
-          </h2>
-          <div aria-hidden="true" className="text-[12px] tabular-nums text-slate-label dark:text-slate-soft whitespace-nowrap">
-            02
-          </div>
-        </div>
+        <h2 className="font-display font-semibold text-ink dark:text-white text-[26px] mb-12">
+          How it works
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {steps.map((step) => (

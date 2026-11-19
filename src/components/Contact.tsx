@@ -5,14 +5,9 @@ export const Contact = () => {
   return (
     <Container>
       <section id="contact" className="py-20 border-t border-hairline dark:border-trueGray-800">
-        <div className="flex justify-between items-baseline gap-6 mb-12">
-          <h2 className="font-display font-semibold text-ink dark:text-white text-[26px]">
-            Get in touch
-          </h2>
-          <div aria-hidden="true" className="text-[12px] tabular-nums text-slate-label dark:text-slate-soft whitespace-nowrap">
-            04
-          </div>
-        </div>
+        <h2 className="font-display font-semibold text-ink dark:text-white text-[26px] mb-12">
+          Get in touch
+        </h2>
 
         <div className="bg-panel dark:bg-trueGray-800 border border-hairline dark:border-trueGray-700 p-8 md:p-14 flex flex-wrap items-center justify-between gap-7 rounded">
           <p className="font-display font-semibold text-ink dark:text-white text-2xl max-w-[400px]">

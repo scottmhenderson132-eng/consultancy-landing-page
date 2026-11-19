@@ -5,14 +5,9 @@ export const About = () => {
   return (
     <Container>
       <section id="about" className="py-20 border-t border-hairline dark:border-trueGray-800">
-        <div className="flex justify-between items-baseline gap-6 mb-12">
-          <h2 className="font-display font-semibold text-ink dark:text-white text-[26px]">
-            About
-          </h2>
-          <div aria-hidden="true" className="text-[12px] tabular-nums text-slate-label dark:text-slate-soft whitespace-nowrap">
-            03
-          </div>
-        </div>
+        <h2 className="font-display font-semibold text-ink dark:text-white text-[26px] mb-12">
+          About
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-11 items-start">
           <div className="relative w-[120px] h-[120px] rounded-full overflow-hidden">
