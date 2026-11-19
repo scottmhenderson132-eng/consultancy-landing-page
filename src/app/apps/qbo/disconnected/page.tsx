@@ -27,7 +27,7 @@ export default function QboDisconnected() {
         <div className="mt-5">
           <Link
             href="/apps/qbo/connect"
-            className="font-mono text-[13px] text-slate dark:text-slate-soft border-b border-hairline pb-1 hover:text-ink hover:border-ink dark:hover:text-white transition-colors"
+            className="text-sm font-medium text-slate dark:text-slate-soft border-b border-hairline pb-1 hover:text-ink hover:border-ink dark:hover:text-white transition-colors"
           >
             Reconnect
           </Link>

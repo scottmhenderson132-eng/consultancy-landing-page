@@ -40,7 +40,7 @@ export default function QboApp() {
               key={row.term}
               className="grid grid-cols-1 sm:grid-cols-[180px_1fr] gap-1 sm:gap-6 py-4 border-b border-hairline dark:border-trueGray-800"
             >
-              <dt className="font-mono text-[11px] tracking-[0.14em] uppercase text-slate-soft sm:pt-1">
+              <dt className="text-[12px] font-medium tracking-[0.12em] uppercase text-slate-label dark:text-slate-soft sm:pt-1">
                 {row.term}
               </dt>
               <dd className="text-[14.5px] leading-[1.6] text-slate dark:text-slate-soft">
@@ -59,7 +59,7 @@ export default function QboApp() {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="font-mono text-[13px] text-slate dark:text-slate-soft border-b border-hairline pb-1 hover:text-ink hover:border-ink dark:hover:text-white transition-colors"
+                  className="text-sm font-medium text-slate dark:text-slate-soft border-b border-hairline pb-1 hover:text-ink hover:border-ink dark:hover:text-white transition-colors"
                 >
                   {link.label}
                 </Link>

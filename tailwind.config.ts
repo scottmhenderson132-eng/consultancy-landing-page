@@ -20,6 +20,9 @@ const config: Config = {
         slate: {
           DEFAULT: "#54544F",
           soft: "#8B8B84",
+          // Small labels on light backgrounds. #8B8B84 is only about 3.3:1 on
+          // paper; this keeps the same hue at about 5:1 (4.7:1 on panel).
+          label: "#6B6B65",
         },
         hairline: "#DAD8D0",
         panel: "#F1F0EA",
@@ -28,9 +31,7 @@ const config: Config = {
     fontFamily: {
       sans: ["Work Sans", ...defaultTheme.fontFamily.sans],
       stock: [defaultTheme.fontFamily.sans],
-      display: ["var(--font-noto-sans)", ...defaultTheme.fontFamily.sans],
-      mono: ["var(--font-courier-prime)", ...defaultTheme.fontFamily.mono],
-    },
+      display: ["var(--font-noto-sans)", ...defaultTheme.fontFamily.sans],    },
   },
   variants: {
     extend: {},

@@ -114,7 +114,7 @@ export default function QboIntegrationPrivacy() {
         <p className="mt-4 text-base text-slate dark:text-slate-soft">
           Scott Henderson Advisory Services
         </p>
-        <p className="mt-2 font-mono text-[11px] text-slate-soft">
+        <p className="mt-2 text-[12px] tabular-nums text-slate-label dark:text-slate-soft">
           {`Effective ${EFFECTIVE_DATE}`}
         </p>
 
@@ -140,7 +140,7 @@ function Clause({ heading, body }: Readonly<{ heading: string; body: Block[] }>)
                 key={item}
                 className="relative pl-[18px] py-[7px] text-[14.5px] leading-[1.6] text-slate dark:text-slate-soft"
               >
-                <span className="absolute left-0 text-slate-soft">·</span>
+                <span className="absolute left-0 text-slate-label dark:text-slate-soft">·</span>
                 {item}
               </li>
             ))}

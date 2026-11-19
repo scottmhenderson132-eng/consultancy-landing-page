@@ -25,10 +25,10 @@ export const Services = () => {
     <Container>
       <section id="services" className="py-20 border-t border-hairline dark:border-trueGray-800">
         <div className="flex justify-between items-baseline gap-6 mb-12">
-          <div className="font-display font-semibold text-ink dark:text-white text-[26px]">
+          <h2 className="font-display font-semibold text-ink dark:text-white text-[26px]">
             Services
-          </div>
-          <div className="font-mono text-[11px] text-slate-soft whitespace-nowrap">
+          </h2>
+          <div aria-hidden="true" className="text-[12px] tabular-nums text-slate-label dark:text-slate-soft whitespace-nowrap">
             01
           </div>
         </div>
@@ -57,7 +57,7 @@ function ServiceCard({ title, items }: Readonly<{ title: string; items: string[]
               i === 0 ? "" : "border-t border-hairline dark:border-trueGray-800"
             }`}
           >
-            <span className="absolute left-0 text-slate-soft">—</span>
+            <span aria-hidden="true" className="absolute left-0 top-[20px] w-2 h-px bg-slate-soft dark:bg-trueGray-600" />
             {item}
           </li>
         ))}

@@ -6,10 +6,10 @@ export const About = () => {
     <Container>
       <section id="about" className="py-20 border-t border-hairline dark:border-trueGray-800">
         <div className="flex justify-between items-baseline gap-6 mb-12">
-          <div className="font-display font-semibold text-ink dark:text-white text-[26px]">
+          <h2 className="font-display font-semibold text-ink dark:text-white text-[26px]">
             About
-          </div>
-          <div className="font-mono text-[11px] text-slate-soft whitespace-nowrap">
+          </h2>
+          <div aria-hidden="true" className="text-[12px] tabular-nums text-slate-label dark:text-slate-soft whitespace-nowrap">
             03
           </div>
         </div>
@@ -43,7 +43,7 @@ export const About = () => {
               and decisions got made on instinct instead of numbers. That’s
               the gap I close.
             </p>
-            <p>Based in Victoria, BC, working remotely with clients across Canada.</p>
+            <p>Working remotely with clients across British Columbia.</p>
             <p className="pt-2 font-display font-semibold text-ink dark:text-white">
               Scott Henderson, CPA
             </p>

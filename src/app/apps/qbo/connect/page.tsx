@@ -35,7 +35,7 @@ export default function QboConnect() {
           {authorizeUrl ? (
             <a
               href={authorizeUrl}
-              className="inline-block font-mono text-[13px] bg-ink text-paper dark:bg-white dark:text-ink px-6 py-3.5 rounded hover:opacity-80 transition-opacity"
+              className="inline-block text-sm font-medium bg-ink text-paper dark:bg-white dark:text-ink px-6 py-3.5 rounded hover:opacity-80 transition-opacity"
             >
               Continue to Intuit
             </a>
@@ -43,7 +43,7 @@ export default function QboConnect() {
             <>
               <span
                 aria-disabled="true"
-                className="inline-block font-mono text-[13px] bg-panel dark:bg-trueGray-800 text-slate-soft border border-hairline dark:border-trueGray-700 px-6 py-3.5 rounded cursor-not-allowed select-none"
+                className="inline-block text-sm font-medium bg-panel dark:bg-trueGray-800 text-slate-label dark:text-slate-soft border border-hairline dark:border-trueGray-700 px-6 py-3.5 rounded cursor-not-allowed select-none"
               >
                 Continue to Intuit
               </span>
@@ -61,7 +61,7 @@ export default function QboConnect() {
               key={step}
               className="grid grid-cols-[42px_1fr] gap-2 py-4 border-b border-hairline dark:border-trueGray-800"
             >
-              <span className="font-mono text-[12px] text-slate-soft pt-[3px]">
+              <span className="text-[12px] tabular-nums text-slate-label dark:text-slate-soft pt-[3px]">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <span className="text-[14.5px] leading-[1.6] text-slate dark:text-slate-soft">
@@ -74,13 +74,13 @@ export default function QboConnect() {
         <div className="mt-12 flex flex-wrap gap-x-8 gap-y-3">
           <Link
             href="/legal/qbo-integration-privacy"
-            className="font-mono text-[13px] text-slate dark:text-slate-soft border-b border-hairline pb-1 hover:text-ink hover:border-ink dark:hover:text-white transition-colors"
+            className="text-sm font-medium text-slate dark:text-slate-soft border-b border-hairline pb-1 hover:text-ink hover:border-ink dark:hover:text-white transition-colors"
           >
             Privacy policy
           </Link>
           <Link
             href="/legal/qbo-integration-terms"
-            className="font-mono text-[13px] text-slate dark:text-slate-soft border-b border-hairline pb-1 hover:text-ink hover:border-ink dark:hover:text-white transition-colors"
+            className="text-sm font-medium text-slate dark:text-slate-soft border-b border-hairline pb-1 hover:text-ink hover:border-ink dark:hover:text-white transition-colors"
           >
             Terms of use
           </Link>
