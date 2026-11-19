@@ -5,14 +5,9 @@ export const About = () => {
   return (
     <Container>
       <section id="about" className="py-20 border-t border-hairline dark:border-trueGray-800">
-        <div className="flex justify-between items-baseline gap-6 mb-12">
-          <div className="font-display font-semibold text-ink dark:text-white text-[26px]">
-            About
-          </div>
-          <div className="font-mono text-[11px] text-slate-soft whitespace-nowrap">
-            03
-          </div>
-        </div>
+        <h2 className="font-display font-semibold text-ink dark:text-white text-[26px] mb-12">
+          About
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-11 items-start">
           <div className="relative w-[120px] h-[120px] rounded-full overflow-hidden">
@@ -43,7 +38,7 @@ export const About = () => {
               and decisions got made on instinct instead of numbers. That’s
               the gap I close.
             </p>
-            <p>Based in Victoria, BC, working remotely with clients across Canada.</p>
+            <p>Working remotely with clients across British Columbia.</p>
             <p className="pt-2 font-display font-semibold text-ink dark:text-white">
               Scott Henderson, CPA
             </p>

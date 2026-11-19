@@ -14,48 +14,51 @@ const navLinks = [
 export const Navbar = () => {
   return (
     <Disclosure
-      as="nav"
+      as="header"
       className="sticky top-0 z-50 bg-paper/[0.92] dark:bg-trueGray-900/[0.92] backdrop-blur-sm border-b border-hairline dark:border-trueGray-800"
     >
       {({ open }) => (
         <>
-          <Container className="!py-5 flex items-center justify-between">
+          <Container className="!py-3 flex items-center justify-between">
             <Link
               href="/#top"
-              aria-label="Scott Henderson Advisory"
-              className="flex items-center font-display font-semibold text-[16px] text-ink dark:text-white"
+              className="-ml-[9px] w-11 h-11 flex items-center justify-center font-display font-semibold text-ink dark:text-white"
             >
               <span className="w-[26px] h-[26px] rounded-full border-[1.5px] border-ink dark:border-white flex items-center justify-center text-[11px] font-semibold">
                 SH
               </span>
+              <span className="sr-only">Scott Henderson Advisory Services, home</span>
             </Link>
 
-            <ul className="hidden md:flex items-center gap-8 list-none">
-              {navLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-slate dark:text-slate-soft hover:text-ink dark:hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <nav aria-label="Primary" className="hidden md:block">
+              <ul className="flex items-center gap-8 list-none">
+                {navLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="block py-3 text-sm text-slate dark:text-slate-soft hover:text-ink dark:hover:text-white transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
 
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-3 sm:gap-5">
               <ThemeChanger />
               <Link
                 href="/#contact"
-                className="hidden sm:inline-block font-mono text-xs border border-ink dark:border-white text-ink dark:text-white px-4 py-[9px] rounded hover:bg-ink hover:text-paper dark:hover:bg-white dark:hover:text-ink transition-colors"
+                className="inline-block text-[13px] font-medium border border-ink dark:border-white text-ink dark:text-white px-4 py-[9px] rounded hover:bg-ink hover:text-paper dark:hover:bg-white dark:hover:text-ink transition-colors"
               >
                 Get in touch
               </Link>
               <DisclosureButton
-                aria-label="Toggle menu"
-                className="md:hidden flex items-center justify-center w-8 h-8 text-ink dark:text-white"
+                aria-label={open ? "Close menu" : "Open menu"}
+                className="md:hidden -mr-[10px] flex items-center justify-center w-11 h-11 text-ink dark:text-white"
               >
                 <svg
+                  aria-hidden="true"
                   className="w-5 h-5 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -77,28 +80,23 @@ export const Navbar = () => {
             </div>
           </Container>
 
-          <DisclosurePanel className="md:hidden border-t border-hairline dark:border-trueGray-800">
-            <ul className="flex flex-col list-none px-8 py-4 gap-1">
+          <DisclosurePanel
+            as="nav"
+            aria-label="Mobile"
+            className="md:hidden border-t border-hairline dark:border-trueGray-800"
+          >
+            <ul className="flex flex-col list-none px-8 py-3">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <DisclosureButton
                     as={Link}
                     href={link.href}
-                    className="block py-2 text-sm text-slate dark:text-slate-soft hover:text-ink dark:hover:text-white transition-colors"
+                    className="block py-3 text-[15px] text-slate dark:text-slate-soft hover:text-ink dark:hover:text-white transition-colors"
                   >
                     {link.label}
                   </DisclosureButton>
                 </li>
               ))}
-              <li>
-                <DisclosureButton
-                  as={Link}
-                  href="/#contact"
-                  className="block py-2 text-sm text-slate dark:text-slate-soft hover:text-ink dark:hover:text-white transition-colors"
-                >
-                  Get in touch
-                </DisclosureButton>
-              </li>
             </ul>
           </DisclosurePanel>
         </>

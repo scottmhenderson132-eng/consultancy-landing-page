@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Work_Sans, Noto_Sans, Courier_Prime } from "next/font/google";
+import { Work_Sans, Noto_Sans } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
@@ -11,11 +11,6 @@ const workSans = Work_Sans({ subsets: ["latin"] });
 const notoSans = Noto_Sans({
   subsets: ["latin"],
   variable: "--font-noto-sans",
-});
-const courierPrime = Courier_Prime({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-courier-prime",
 });
 
 export const metadata: Metadata = {
@@ -53,10 +48,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${workSans.className} ${notoSans.variable} ${courierPrime.variable}`}>
+      <body className={`${workSans.className} ${notoSans.variable}`}>
         <ThemeProvider attribute="class">
           <Navbar />
-          <div>{children}</div>
+          <main id="top">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
